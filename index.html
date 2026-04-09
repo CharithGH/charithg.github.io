@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scramble Game</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+    <h1>🔥 Word Scramble</h1>
+
+    <div class="scrambled-word" id="scrambledWord">----</div>
+
+    <input type="text" id="userInput" placeholder="Your guess...">
+
+    <div class="buttons">
+        <button id="submitBtn">Check</button>
+        <button id="newWordBtn">Next</button>
+    </div>
+
+    <div id="message" class="message"></div>
+    <div class="score">Score: <span id="score">0</span></div>
+</div>
+
+<!-- Confetti Canvas -->
+<canvas id="confettiCanvas"></canvas>
+
+<script src="script.js"></script>
+</body>
+</html>
